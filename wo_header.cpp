@@ -7,12 +7,14 @@ void setup() {
     Wire.begin();
     Serial.begin(9800);
     initialz();
+
+
 }
 
 void loop() {
   Serial.print("Distance:");
   Serial.println(Dist);
-  
+
 }
 
 void mesdist(){
